@@ -1,4 +1,6 @@
 console.log("hello world");
+
+
 $(document).ready(function() {
 
   $(function() {
@@ -36,4 +38,16 @@ $(document).ready(function() {
        typeSpeed: 25
      });
  });
-});
+}
+
+ $(function(){
+          $('.slider').cycle({
+              fx: 'scrollRight',
+              timeout: 5000,
+              pause: 1
+          });
+
+ });
+
+);
+
